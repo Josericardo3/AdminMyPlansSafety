@@ -11,7 +11,7 @@ const List = () => {
   const rows = [
     {
       id: 1143155,
-      product: "Acer Nitro 5",
+      product: "Planta de Maiz",
       img: "https://m.media-amazon.com/images/I/81bc8mA3nKL._AC_UY327_FMwebp_QL65_.jpg",
       customer: "John Smith",
       date: "1 March",
@@ -21,7 +21,7 @@ const List = () => {
     },
     {
       id: 2235235,
-      product: "Playstation 5",
+      product: "Hoja de Maiz",
       img: "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
       customer: "Michael Doe",
       date: "1 March",
@@ -65,13 +65,13 @@ const List = () => {
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell className="tableCell">Tracking ID</TableCell>
-            <TableCell className="tableCell">Product</TableCell>
-            <TableCell className="tableCell">Customer</TableCell>
-            <TableCell className="tableCell">Date</TableCell>
+            <TableCell className="tableCell">ID</TableCell>
+            <TableCell className="tableCell">Productos</TableCell>
+            <TableCell className="tableCell">Cliente</TableCell>
+            <TableCell className="tableCell">Fecha</TableCell>
             <TableCell className="tableCell">Amount</TableCell>
             <TableCell className="tableCell">Payment Method</TableCell>
-            <TableCell className="tableCell">Status</TableCell>
+            <TableCell className="tableCell">Estado</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

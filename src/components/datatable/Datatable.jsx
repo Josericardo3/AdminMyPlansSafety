@@ -14,7 +14,7 @@ const Datatable = () => {
   const actionColumn = [
     {
       field: "action",
-      headerName: "Action",
+      headerName: "Acción",
       width: 200,
       renderCell: (params) => {
         return (
@@ -36,9 +36,9 @@ const Datatable = () => {
   return (
     <div className="datatable">
       <div className="datatableTitle">
-        Add New User
+        Añadir Nuevo Usuario
         <Link to="/users/new" className="link">
-          Add New
+          Añadir Nuevo
         </Link>
       </div>
       <DataGrid

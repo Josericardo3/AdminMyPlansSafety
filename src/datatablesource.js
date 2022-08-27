@@ -42,7 +42,7 @@ export const userColumns = [
   { field: "id", headerName: "ID", width: 70 },
   {
     field: "user",
-    headerName: "User",
+    headerName: "Usuario",
     width: 230,
     renderCell: (params) => {
       return (
@@ -61,12 +61,12 @@ export const userColumns = [
 
   {
     field: "age",
-    headerName: "Age",
+    headerName: "Edad",
     width: 100,
   },
   {
     field: "status",
-    headerName: "Status",
+    headerName: "Estado",
     width: 160,
     renderCell: (params) => {
       return (
@@ -84,7 +84,7 @@ export const userRows = [
     id: 1,
     username: "Snow",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    status: "active",
+    status: "Activo ",
     email: "1snow@gmail.com",
     age: 35,
   },
@@ -93,7 +93,7 @@ export const userRows = [
     username: "Jamie Lannister",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "2snow@gmail.com",
-    status: "passive",
+    status: "Inactivo",
     age: 42,
   },
   {
@@ -101,7 +101,7 @@ export const userRows = [
     username: "Lannister",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "3snow@gmail.com",
-    status: "pending",
+    status: "Pendiente",
     age: 45,
   },
   {
@@ -109,7 +109,7 @@ export const userRows = [
     username: "Stark",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "4snow@gmail.com",
-    status: "active",
+    status: "Activo",
     age: 16,
   },
   {
@@ -117,7 +117,7 @@ export const userRows = [
     username: "Targaryen",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "5snow@gmail.com",
-    status: "passive",
+    status: "Inactivo",
     age: 22,
   },
   {
@@ -125,7 +125,7 @@ export const userRows = [
     username: "Melisandre",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "6snow@gmail.com",
-    status: "active",
+    status: "Activo",
     age: 15,
   },
   {
@@ -133,7 +133,7 @@ export const userRows = [
     username: "Clifford",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "7snow@gmail.com",
-    status: "passive",
+    status: "Inactivo",
     age: 44,
   },
   {
@@ -141,7 +141,7 @@ export const userRows = [
     username: "Frances",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "8snow@gmail.com",
-    status: "active",
+    status: "Activo",
     age: 36,
   },
   {
@@ -149,7 +149,7 @@ export const userRows = [
     username: "Roxie",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "snow@gmail.com",
-    status: "pending",
+    status: "Pendiente",
     age: 65,
   },
   {
@@ -157,7 +157,7 @@ export const userRows = [
     username: "Roxie",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "snow@gmail.com",
-    status: "active",
+    status: "Activo",
     age: 65,
   },
 ];

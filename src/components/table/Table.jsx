@@ -11,53 +11,53 @@ const List = () => {
   const rows = [
     {
       id: 1143155,
-      product: "Acer Nitro 5",
-      img: "https://m.media-amazon.com/images/I/81bc8mA3nKL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "John Smith",
-      date: "1 March",
-      amount: 785,
-      method: "Cash on Delivery",
-      status: "Approved",
+      product: "Alstroemeria aurea",
+      img: "https://www.lifeder.com/wp-content/uploads/2020/06/Alstroemeria_aurea_%E2%80%98Orange_King_01-1-630x420.jpg",
+      customer: "Jose Caicedo",
+      date: "26-08-2022",
+      amount: "23 seg",
+      method: "Basico",
+      status: "Aprobado",
     },
     {
       id: 2235235,
-      product: "Playstation 5",
-      img: "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Michael Doe",
-      date: "1 March",
-      amount: 900,
-      method: "Online Payment",
-      status: "Pending",
+      product: "Geranio Sirak",
+      img: "https://www.lifeder.com/wp-content/uploads/2020/06/Geranium_Sirak_Bodziszek_2019-06-01_01-1-560x420.jpg",
+      customer: "Naysha Santiago",
+      date: "26-08-2022",
+      amount: "45 seg",
+      method: "Basico",
+      status: "Pendiente",
     },
     {
       id: 2342353,
-      product: "Redragon S101",
-      img: "https://m.media-amazon.com/images/I/71kr3WAj1FL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "John Smith",
-      date: "1 March",
-      amount: 35,
-      method: "Cash on Delivery",
-      status: "Pending",
+      product: "Rosales silvestres",
+      img: "https://www.lifeder.com/wp-content/uploads/2020/06/Flor_de_Rosa_Sisa_Tagetes_erecta_Tarapoto_Peru-1.jpg",
+      customer: "Jose Caicedo",
+      date: "25-08-2022",
+      amount: "35 seg",
+      method: "Basico",
+      status: "Pendiente",
     },
     {
       id: 2357741,
-      product: "Razer Blade 15",
-      img: "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Jane Smith",
-      date: "1 March",
-      amount: 920,
-      method: "Online",
-      status: "Approved",
+      product: "Ipomoea purpurea",
+      img: "https://www.lifeder.com/wp-content/uploads/2020/06/Ipomoea_purpurea_1-1-561x420.jpg",
+      customer: "MIshell Gomez",
+      date: "25-08-2022",
+      amount: "32 seg",
+      method: "Basico",
+      status: "Aprobado",
     },
     {
       id: 2342355,
-      product: "ASUS ROG Strix",
-      img: "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Harold Carol",
-      date: "1 March",
-      amount: 2000,
-      method: "Online",
-      status: "Pending",
+      product: "Jasminum",
+      img: "https://www.lifeder.com/wp-content/uploads/2020/06/Jasmine_blooms-1-646x420.jpg",
+      customer: "Jose Caicedo",
+      date: "24-08-2022",
+      amount: "29 seg",
+      method: "Basico",
+      status: "Pendiente",
     },
   ];
   return (
@@ -65,13 +65,13 @@ const List = () => {
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell className="tableCell">Tracking ID</TableCell>
-            <TableCell className="tableCell">Product</TableCell>
-            <TableCell className="tableCell">Customer</TableCell>
-            <TableCell className="tableCell">Date</TableCell>
-            <TableCell className="tableCell">Amount</TableCell>
-            <TableCell className="tableCell">Payment Method</TableCell>
-            <TableCell className="tableCell">Status</TableCell>
+            <TableCell className="tableCell">ID analisis</TableCell>
+            <TableCell className="tableCell">Planta</TableCell>
+            <TableCell className="tableCell">Usuario</TableCell>
+            <TableCell className="tableCell">Fecha</TableCell>
+            <TableCell className="tableCell">Tiempo de analisis</TableCell>
+            <TableCell className="tableCell">Tipo de analisis</TableCell>
+            <TableCell className="tableCell">Resultado</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

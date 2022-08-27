@@ -16,13 +16,13 @@ const Navbar = () => {
     <div className="navbar">
       <div className="wrapper">
         <div className="search">
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="Buscar" />
           <SearchOutlinedIcon />
         </div>
         <div className="items">
           <div className="item">
             <LanguageOutlinedIcon className="icon" />
-            English
+            Español
           </div>
           <div className="item">
             <DarkModeOutlinedIcon
@@ -39,14 +39,14 @@ const Navbar = () => {
           </div>
           <div className="item">
             <ChatBubbleOutlineOutlinedIcon className="icon" />
-            <div className="counter">2</div>
+            <div className="counter">3</div>
           </div>
           <div className="item">
             <ListOutlinedIcon className="icon" />
           </div>
           <div className="item">
             <img
-              src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3a/UNMSM_coatofarms_seal.svg"
               alt=""
               className="avatar"
             />
